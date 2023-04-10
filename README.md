@@ -1,7 +1,4 @@
-# PetDetective2.0
-# This GitHub repository is for CST8333.
-# My name is Matthew Ramey.
-# This is my Pet Detective application.
+# PetDetective2.0 This GitHub repository is for CST8333. My name is Matthew Ramey. This is my Pet Detective application.
 
 Instructions
 1) For each of the drop-down menus on the homepage, the user must select a single option. The program cannot continue to the results page if any of the drop-down menus still say "Pick an option...".
