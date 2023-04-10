@@ -1,6 +1,7 @@
 from Model import Model
 from View import View
 
+
 class Controller:
     """
     The Controller class of my Pet Detective application.
@@ -66,8 +67,10 @@ class Controller:
 
         return self.model.retrieve_pets(size, sound_level, activity_level, hair_length, affection_level)
 
+
 if __name__ == "__main__":
     # This creates the necessary controller object.
     petDetective = Controller()
     # This starts the application.
     petDetective.main()
+

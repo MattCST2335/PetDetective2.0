@@ -1,4 +1,7 @@
 import mysql.connector
+from mysql.connector.locales.eng import client_error
+from mysql.connector.plugins import caching_sha2_password
+
 
 class Model:
     """
@@ -33,7 +36,8 @@ class Model:
             user='root',
             password='Easy1982',
             port='3306',
-            database='CST8333'
+            database='CST8333',
+            auth_plugin='mysql_native_password'
         )
 
     def retrieve_pets(self, size, sound_level, activity_level, hair_length, affection_level):
